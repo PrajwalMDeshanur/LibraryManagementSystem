@@ -19,7 +19,8 @@ To create a robust and normalized database system that simplifies library operat
 - **Publisher Information**: Maintains records of book publishers and their contact details.
 
 ## Implementation
-- **Schema Design**: Created tables and established relationships between them using SQL commands.
+- **RDBMS Used**: Implemented using **Microsoft SQL Server Management Studio 20 (SSMS 20)**, a powerful, user-friendly tool for managing SQL Server databases.
+- **Schema Design**: Created tables and established relationships between them using SQL commands in SSMS.
 - **SQL Commands**: Implemented necessary constraints to ensure data consistency and integrity.
 - **Queries**: Generated 35 optimized SQL queries for common library operations such as:
   - Viewing borrowing history of subscribers.
@@ -32,11 +33,10 @@ To create a robust and normalized database system that simplifies library operat
 - Maintains high data integrity and consistency, reducing potential errors in data management.
 
 ## How to Use
-1. **Setup**: Use the provided SQL file (`Library.sql`) to create the database schema in your preferred database management system (e.g., MySQL, PostgreSQL).
+1. **Setup**: Use the provided SQL file (`Library.sql`) to create the database schema in Microsoft SQL Server Management Studio 20 (SSMS 20).
 2. **Data Insertion**: Populate the tables with sample data to simulate library operations.
-3. **Query Execution**: Run the provided SQL queries to perform various operations like tracking book borrowings, finding popular books, and managing subscriber data.
+3. **Query Execution**: Run the provided SQL queries in SSMS to perform various operations like tracking book borrowings, finding popular books, and managing subscriber data.
 
 ## Conclusion
-This project demonstrates the effective use of database design principles to manage the complex operations of a library. The system is optimized for performance, data integrity, and scalability, making it a reliable solution for library management.
+This project demonstrates the effective use of database design principles and the capabilities of Microsoft SQL Server Management Studio 20 to manage the complex operations of a library. The system is optimized for performance, data integrity, and scalability, making it a reliable solution for library management.
 
----
